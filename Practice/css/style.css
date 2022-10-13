@@ -1,0 +1,17 @@
+h1 {
+    color: rgb(230, 8, 255);
+    background-color: aquamarine;
+}
+p {
+    color:blue;
+}
+#container1 {
+    background-color: beige;
+    border: black 5px dotted;
+}
+
+#container2{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 20px;
+}
