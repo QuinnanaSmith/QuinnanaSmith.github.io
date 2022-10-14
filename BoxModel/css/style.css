@@ -1,0 +1,28 @@
+#container {
+    background-color: bisque;
+}
+
+#header {
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+#section1 {
+    height: 500px;
+    width: 45%;
+    background-color: rgb(253, 283, 111);
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+#section2 {
+    height: 500px;
+    width: 45%;
+    background-color: blueviolet;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+}
