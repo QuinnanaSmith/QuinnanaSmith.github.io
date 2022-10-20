@@ -1,0 +1,37 @@
+ul {
+    display: flex;
+    padding: 10px;
+    justify-content: flex end;
+    
+}
+
+li {
+
+    padding: 10px;
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: blue;
+    padding: 10px;
+}
+nav {
+    background-color:rgb(165, 196, 91);
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+
+ul {
+    flex-direction: column;
+ }
+
+}
