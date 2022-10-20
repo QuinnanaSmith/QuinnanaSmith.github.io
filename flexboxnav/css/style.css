@@ -26,6 +26,9 @@ nav {
     border-radius: 5px;
     
 }
+#home {
+    margin-right: auto;
+}
 
 /* Media Query */
 @media only screen and (max-width: 768px) {
