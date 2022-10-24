@@ -1,3 +1,9 @@
+body {
+    background-color: rgb(235, 142, 22);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
 ul {
     display: flex;
     padding: 10px;
