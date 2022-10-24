@@ -48,3 +48,18 @@ ul {
  }
 
 }
+
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px;
+    border: 2px solid rgb(200, 188, 21);
+    position: absolute;
+    opacity: 0;
+    transition-duration: 1s ;
+}
+
+.dropdown:hover .dropdown-menu{
+opacity: 1;
+}
