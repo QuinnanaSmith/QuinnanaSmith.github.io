@@ -1,0 +1,29 @@
+#myGrid {
+    display: grid;
+    grid-template-columns: 80px 50% 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+    "SideNav myHeader myHeader"
+    "SideNav content content"
+    "SideNav footer footer";
+}
+
+header {
+    background-color:antiquewhite;
+    grid-area: myHeader;
+}
+
+nav{
+    background-color: aquamarine;
+    grid-area: SideNav;
+}
+
+main {
+    background-color: fuchsia;
+    grid-area: content;
+}
+
+footer {
+    background-color: lightsalmon;
+    grid-area: footer;
+}
