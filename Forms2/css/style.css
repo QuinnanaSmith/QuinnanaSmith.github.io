@@ -33,7 +33,7 @@ input[type=text]:invalid {
 }
 
 input[type="submit"]:hover {
-background-color: rgb(13, 13, 85);
+background-color: rgb(169, 217, 226);
 }
 
 fieldset {
