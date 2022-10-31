@@ -9,3 +9,16 @@ h2 {
 input, [type=submit] {
     align-items: center;
 }
+
+input[type=text]:valid {
+    border: solid 3px green;
+}
+input[type=text]:invalid {
+    border: solid 3px coral;
+}
+
+input[type="submit"]:hover {
+background-color: chartreuse;
+}
+
+ 
