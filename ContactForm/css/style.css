@@ -1,0 +1,24 @@
+body {
+    background-color: aliceblue;
+}
+fieldset {
+    background-color: rgb(252, 252, 252);
+}
+
+h1 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+
+input[type=text]:valid {
+    border: solid 3px rgba(124, 195, 196, 0.807);
+}
+input[type=text]:invalid {
+    border: solid 3px rgba(237, 122, 22, 0.908);
+}
+input[type="submit"]:hover {
+    background-color: rgb(122, 163, 170);
+    }
+
