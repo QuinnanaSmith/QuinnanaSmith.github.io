@@ -1,4 +1,5 @@
 body {
+    
     background-color: aliceblue;
 }
 fieldset {
@@ -7,9 +8,11 @@ fieldset {
 
 h1 {
     text-align: center;
+    color: rgb(29, 144, 154);
 }
 h4 {
     text-align: center;
+    color:rgb(0, 0, 0)
 }
 
 input[type=text]:valid {
@@ -18,7 +21,33 @@ input[type=text]:valid {
 input[type=text]:invalid {
     border: solid 3px rgba(237, 122, 22, 0.908);
 }
-input[type="submit"]:hover {
-    background-color: rgb(122, 163, 170);
-    }
 
+
+input[type=number]:valid {
+    border: solid 3px rgba(124, 195, 196, 0.807);
+}
+
+input[type=number]:invalid {
+    border: solid 3px rgba(237, 122, 22, 0.908);
+}
+
+input[type="Submit"]:hover {
+    background-color: rgb(58, 125, 218);
+    
+    }
+fieldset {
+    border: 1px solid rgb(122, 163, 170);
+    width: 45%;
+    float: center;
+    margin: auto;
+}
+#submit {
+    color: rgb(21, 65, 76);
+    font-size: 90%;
+    width: 90px;
+    height: 50px;
+    border: none;
+    background-color: rgb(124, 195, 196, 0.807);
+    border-radius: 20px;
+    float: right;
+}
