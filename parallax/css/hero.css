@@ -1,0 +1,17 @@
+.site-hero {
+    height: 80vh;
+    background-image: url("../assets/branding/wood_bkgrnd.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    font-style: italic;
+    color: rgb(236, 232, 226);
+}
+h5 {
+    text-align: center;
+}

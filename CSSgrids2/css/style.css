@@ -1,0 +1,19 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+#gallery1{
+    grid-template-columns: auto auto;
+}
+
+#gallery2 {
+    grid-template-columns: auto;
+}
+
+#gallery3 {
+    grid-template-columns: auto;
+}
+
+
+
