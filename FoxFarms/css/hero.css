@@ -1,6 +1,6 @@
 .site-hero {
     height: 80vh;
-    background-image: url("../assets/branding/produce.jpg");
+    background-image: url("../assets/images/produce.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -17,7 +17,7 @@ h5 {
 }
 
 #carouselExampleSlidesOnly {
-    width: 50%;
+    width: 30%;
 }
 
 body {
@@ -35,16 +35,36 @@ h3{
     color: rgb(255, 255, 255);
     font-size: larger;
     font-weight: 900;
-    font-family: 'Montserrat';font-size: 22px;
+    font-family: 'Lobster';font-size: 42px;
 }
 h1 {
-    text-align: cen;
+    text-align: center;
 }
 h5 {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-weight: 800;
 }
 p {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-weight: 500;
+    text-align: center;
+}
+#produce {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+#para2 { 
+    color: white;
+
+}
+
+#farmers {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
 }
