@@ -81,7 +81,7 @@ nav a::before {
   padding-right:5px;
 }
 nav a:hover {
-  background-color: #192e55;
+  background-color: #000000;
   color:#f8feff;
 }
 .nav-contact {
@@ -90,6 +90,7 @@ nav a:hover {
   align-items: center;
   height:auto;
   width:33%;
+  color: #000000;
 }
 .nav-contact:hover {
   color:#000000;
@@ -101,6 +102,7 @@ nav a:hover {
   margin:0;
   margin-right: 10px;
   font-family: 'Montserrat';font-size: 22px;
+  color: #000000;
 }
 
 
