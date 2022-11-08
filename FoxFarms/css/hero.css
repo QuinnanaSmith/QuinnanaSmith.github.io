@@ -1,0 +1,39 @@
+.site-hero {
+    height: 80vh;
+    background-image: url("../assets/branding/produce.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    font-style: italic;
+    color: rgb(236, 232, 226);
+}
+h5 {
+    text-align: center;
+}
+
+#carouselExampleSlidesOnly {
+    width: 50%;
+}
+
+body {
+    float: right;
+}
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    float: right;
+    }
+
+h3{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'Montserrat';font-size: 22px;
+}
