@@ -19,7 +19,7 @@ a {
 }
 .btn {
   background-color: #f8feff;
-  border:2px solid rgb(216, 146, 24);
+  border:2px solid rgba(238, 179, 0, 0.783);
   border-radius: 0px;
 }
 
@@ -27,13 +27,13 @@ a {
 
 body {
   margin:0;
-  color:#ffb637;
+  color:#d6a000;
   border-color: black;
   
 }
 
 header {
-  border-bottom: 2px solid #000000;
+  border-bottom: 1px solid rgb(238, 179, 0, 0.783);
   display:flex;
   align-items: right;
   justify-content: space-between;
@@ -45,9 +45,10 @@ header {
 .header-top{
   align-items: center;
   width:15%;
+  text-align: center;
 }
 nav {
-  border-bottom: 2px solid #000000;
+  border-bottom: 1px solid rgb(238, 179, 0, 0.783);
   background-color:#ffffff;
   position:sticky;
   top:0px;
