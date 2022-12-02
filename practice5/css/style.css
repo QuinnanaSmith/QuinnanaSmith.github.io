@@ -1,0 +1,25 @@
+#square1 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+#square2 {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+}
+
+#square3 {
+    background-color: turquoise;
+    width: 100px;
+    height: 100px;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 20px'
+}
+
