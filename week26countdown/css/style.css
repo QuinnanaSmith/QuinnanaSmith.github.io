@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(162, 255, 255);
+    background-color: rgb(17, 126, 88);
 }
 
 #hero {
@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 58vh;
-    background-color: lavender;
+    background-color: rgb(192, 81, 81);
 }
 #content {
     margin: 5%;

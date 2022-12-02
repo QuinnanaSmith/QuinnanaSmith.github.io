@@ -39,7 +39,7 @@ function convertToDaysLeft(milliseconds) {
     let secondsLeft = convertToSecondsLeft(timeLeft);
 
     countdown.innerHTML = formatCountdownText
-   formatCountdownText(daysLeft,hoursLeft,minutesLeft, secondsLeft);
+   (daysLeft,hoursLeft,minutesLeft, secondsLeft);
   }
 
   setInterval(setCountdown,1000)
