@@ -17,7 +17,7 @@ function convertToDaysLeft(milliseconds) {
   function convertToSecondsLeft(milliseconds) {
     return Math.floor(
       (milliseconds % (1000 * 60)) / 1000
-    );
+    ); 
   }
 
   function formatCountdownText(days, hours, minutes, seconds) {
