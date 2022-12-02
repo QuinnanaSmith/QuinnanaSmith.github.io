@@ -4,7 +4,7 @@ body {
 }
 
 #hero {
-    display: flex;
+    display: flex ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -12,5 +12,5 @@ body {
     background-color: rgb(192, 81, 81);
 }
 #content {
-    margin: 5%;
+    margin: 5%;  
 }
