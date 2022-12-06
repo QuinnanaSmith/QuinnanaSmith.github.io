@@ -10,21 +10,21 @@ function resultAssign() {
 
 function multiply(n1, n2) {
     let multiplication = n1 * n2;
-result.innerHTNL = multiplication;
+result.innerHTML = multiplication;
 }
 
 function divide(b1, b2) {
-    let divide = b1 / b2;
-result.innerHTNL = divide;
+    let division = b1 / b2;
+result.innerHTML = division;
 }
 
 function subtract(t1, t2) {
-    let subtract = t1 - t2;
-result.innerHTNL = subtract;
+    let subtraction = t1 - t2;
+result.innerHTML = subtraction;
 }
 function add(y1, y2) {
-    let add = y1 - y2;
-result.innerHTNL = add;
+    let addition = y1 + y2;
+result.innerHTML = addition;
 
 
 
