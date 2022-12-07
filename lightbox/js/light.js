@@ -3,113 +3,40 @@ let lightboxContainer = document.getElementById
 let lightboxBackground = document.getElementById
 ('lightboxBackground');
 let lightbox = document.getElementById('lightbox');
-let lightboxCloser = document.getElementById('lightboxCloser');
+let lightboxCloser = document.getElementById
+('lightboxCloser');
 
 function openLightbox(){
     //turn on display class from display none
-    lightboxContainer.classList.add
-    ('display');
+    lightboxContainer.classList.add('display');
 
     //display images src inside of lightbox
     lightbox.src = this.src;
 }
-//image
-let coffeeImage = document.getElementById
-('coffeeImage');
 
-coffeeImage.onclick = openLightbox;
 
+let galleryImages = document.getElementsByClassName
+("galleryImage");
+//Create loop
+
+for (let i = 0; i < galleryImages.length; i++) {
+    let galleryImage = galleryImages [i];
+    galleryImage.onclick = openLightbox;
+}
+
+
+//make function close clickable
 function closeLightbox(){
-    lightboxContainer.classList.remove
-    ('display');
+    lightboxContainer.classList.remove('display');
     lightbox.src = "";
 }
-lightboxBackground.onclick = closeLightbox;
-lightboxCloser.onclick = closeLightbox;
+
+let closers = document.getElementsByClassName('closer');
 
 
-//image1
-let coffeeImage1 = document.getElementById
-('coffeeImage1');
-
-coffeeImage1.onclick = openLightbox;
-
-function closeLightbox(){
-    lightboxContainer.classList.remove
-    ('display');
-    lightbox.src = "";
+for (let i = 0; i < closers.length; i++) {
+    let closer = closers[i];
+ closer.onclick = closeLightbox;
 }
-lightboxBackground.onclick = closeLightbox;
-lightboxCloser.onclick = closeLightbox;
-
-//image2
-let coffeeImage2 = document.getElementById
-('coffeeImage2');
-
-coffeeImage2.onclick = openLightbox;
-
-function closeLightbox(){
-    lightboxContainer.classList.remove
-    ('display');
-    lightbox.src = "";
-}
-lightboxBackground.onclick = closeLightbox;
-lightboxCloser.onclick = closeLightbox;
-
-//image3
-let coffeeImage3 = document.getElementById
-('coffeeImage3');
-
-coffeeImage3.onclick = openLightbox;
-
-function closeLightbox(){
-    lightboxContainer.classList.remove
-    ('display');
-    lightbox.src = "";
-}
-lightboxBackground.onclick = closeLightbox;
-lightboxCloser.onclick = closeLightbox;
-
-//image4
-let coffeeImage4 = document.getElementById
-('coffeeImage4');
-
-coffeeImage4.onclick = openLightbox;
-
-function closeLightbox(){
-    lightboxContainer.classList.remove
-    ('display');
-    lightbox.src = "";
-}
-lightboxBackground.onclick = closeLightbox;
-lightboxCloser.onclick = closeLightbox;
-
-//image5
-let coffeeImage5 = document.getElementById
-('coffeeImage5');
-
-coffeeImage5.onclick = openLightbox;
-
-function closeLightbox(){
-    lightboxContainer.classList.remove
-    ('display');
-    lightbox.src = "";
-}
-lightboxBackground.onclick = closeLightbox;
-lightboxCloser.onclick = closeLightbox;
-
-//image6
-let coffeeImage6 = document.getElementById
-('coffeeImage6');
-
-coffeeImage6.onclick = openLightbox;
-
-function closeLightbox(){
-    lightboxContainer.classList.remove
-    ('display');
-    lightbox.src = "";
-}
-lightboxBackground.onclick = closeLightbox;
-lightboxCloser.onclick = closeLightbox;
 
 
