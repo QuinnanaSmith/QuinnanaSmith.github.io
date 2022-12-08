@@ -17,7 +17,7 @@ function animate() {
 
         count = 0;
     }
-
+ 
 }
 
 setInterval(animate,100)
