@@ -1,7 +1,7 @@
 let starter = document.getElementById("starter");
 
 //set rest of image in array
-let heartArray = ["Assets/images/Asset19.png","Assets/images/Asset20.png", "Assets/images/Asset21.png", "Assets/images/Asset22.png","Assets/images/Asset23.png" ,"Assets/images/Asset24.png","Assets/images/Asset25.png" ,"Assets/images/Asset26.png","Assets/images/Asset27.png"];
+let heartArray = ["assets/images/Asset19.png","assets/images/Asset20.png", "assets/images/Asset21.png", "assets/images/Asset22.png","assets/images/Asset23.png" ,"assets/images/Asset24.png","assets/images/Asset25.png" ,"assets/images/Asset26.png","assets/images/Asset27.png"];
 
 //set counter
 let count = 0;
