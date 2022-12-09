@@ -1,0 +1,27 @@
+body {
+
+
+    background-color: rgb(245, 196, 252);
+}
+
+
+#cuteurchin {
+   
+    animation:  30s linear infinite;
+
+        color: rgb(132, 132, 255);
+        animation: dance 2s infinite alternate;
+    }
+
+@keyframes dance {
+    100% {
+        transform: rotate(3deg);
+    }
+    
+   
+
+}
+#st2 {
+    cx: 250px; 
+    cx: 6px;
+}
