@@ -15,8 +15,9 @@
             delay: 1,
             y: -300,
             rotation: 320,
-            ease: "expo",
+            ease: "bounce",
             stagger: 0.9
+            
         });
 
         
