@@ -25,7 +25,7 @@
                 duration:3,
                 stagger: 0.1,
                 delay: 2,
-                y: 300
+                y: 3000
             
 
         })
