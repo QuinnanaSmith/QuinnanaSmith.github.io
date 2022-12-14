@@ -1,0 +1,227 @@
+
+
+body {
+  float: center;
+  background-color: #020713;
+}
+body, main, footer, nav, header {
+  font-family:'Montserrat';font-size: 22px; ;
+
+}
+a {
+  color: rgb(216, 146, 24) 177px;;
+}
+.btn {
+  background-color: #090a16;
+  border:2px solid rgba(238, 179, 0, 0.783);
+  border-radius: 0px;
+}
+
+/* Header & Navbar: */
+
+body {
+  margin:0;
+  color:#58564d;
+  border-color: rgb(204, 199, 199);
+  
+}
+
+header {
+  border-bottom: 1px solid rgb(216, 146, 24);
+  display:flex;
+  align-items: right;
+  justify-content: space-between;
+  padding:50px;
+  background-color:#0c091a;
+  color:#000000;
+  
+}
+.header-top{
+  align-items: center;
+  width:15%;
+  text-align: center;
+}
+nav {
+  border-bottom: 1px solid rgb(238, 179, 0, 0.783);
+  background-color:#05040e;
+  position:sticky;
+  top:0px;
+  box-shadow: 0px 3px 3px 0px rgb(0,0,0,0.3);
+  display:flex;
+  justify-content: space-between;
+  z-index: 99;
+  font-weight: 500;
+  font-family: 'Montserrat';font-size: 22px;
+}
+
+nav ul {
+  display:flex;
+  padding-left:0;
+  margin:0px;
+}
+
+nav li {
+  list-style-type: none;
+}
+nav a {
+  color:#cf8d00;
+  text-decoration: none;
+  padding:5px 20px;
+  padding-left:2.5px;
+  display:inline-block;
+}
+nav a::before {
+  content:"|";
+  padding-right:5px;
+}
+nav a:hover {
+  background-color: #000000;
+  color:#081618;
+}
+.nav-contact {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  height:auto;
+  width:33%;
+  color: #000000;
+}
+.nav-contact:hover {
+  color:#000000;
+}
+.nav-contact ion-icon{
+  margin-right:10px;
+}
+.nav-contact p {
+  margin:0;
+  margin-right: 10px;
+  font-family: 'Montserrat';font-size: 22px;
+  color: #000000;
+}
+
+
+.site_title {
+  font-family: "Bebas Neue";
+  font-size: 4em;
+  font-weight: 900;
+  margin-bottom:0;
+}
+.site_quote {
+  font-size: 1em;
+  text-align: right;
+  font-style: italic;
+  font-weight: 600;
+  margin:0px;
+}
+#site_logo:hover,.site_title:hover,.site_quote:hover {
+  color:#000000;
+  cursor:pointer;
+}
+
+
+/* MAIN Content */
+main {
+  padding: 25px 15%;
+}
+
+/* contents: */
+
+.content {
+  background-color: #120707;
+  border:2px solid #000000;
+  padding:15px;
+  color:#e6e5e5;
+  box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
+  margin:50px 0px;
+}
+.content-header {
+  font-size: 42pt;
+  margin:0;
+  text-align: center;
+  padding:25px;
+  font-family: 'Lobster';font-size: 42px;;
+  font-weight: bold;
+}
+.content-subhead {
+  border-bottom: 1px solid #05080e;
+  margin:0;
+  text-align: center;
+  margin-bottom:25px;
+  padding-bottom:25px;
+  font-family: 'Lobster';font-size: 42px;
+  font-weight: normal;
+  font-style: italic;
+}
+.content-content {
+  padding:20px;
+}
+
+
+/* Footer ~~~~~~~ */
+.footer-hat {
+  height:0px;
+  background-color: #080714;
+  
+}
+footer {
+  background-color: rgba(205, 144, 0, 0.783);
+  padding:25px;
+  box-sizing: border-box;
+  display:flex;
+}
+footer h4, footer h5, footer h6 {
+  font-family: black'Montserrat';font-size: 22px;
+  color: #000000;
+  margin:0;
+
+}
+.footer-left {
+  flex: 1;
+  margin-bottom:50px;
+}
+.footer-right {
+  flex:3;
+  margin-left:25px;
+}
+footer h4 {
+  font-size: 2em;
+}
+.footer-right h6 {
+  font-size: 1.5em;
+}
+.footer-right p {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.footer-feet {
+  background-color: #0e081b;
+  height: 40px;
+
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px;
+  font-size: 8pt;
+}
+
+.footer-feet p {
+  margin:0;
+}
+
+/* Special typography */
+
+.dropcap {
+  float:left;
+  font-size:42pt;
+  margin-top: -5px;
+  line-height: 0.65;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+}
+h3 {
+  color:#bfbfc2;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
